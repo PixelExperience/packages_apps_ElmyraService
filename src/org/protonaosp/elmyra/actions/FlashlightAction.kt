@@ -16,75 +16,17 @@
 
 package org.protonaosp.elmyra.actions
 
+import android.app.StatusBarManager
 import android.content.Context
-import android.os.Handler
-import android.os.Looper
-import android.hardware.camera2.CameraAccessException
-import android.hardware.camera2.CameraCharacteristics
-import android.hardware.camera2.CameraManager
-import android.util.Log
+import android.os.Bundle
+import android.os.ServiceManager
 
-import org.protonaosp.elmyra.TAG
+import com.android.internal.statusbar.IStatusBarService
 
 class FlashlightAction(context: Context) : Action(context) {
-    private val handler = Handler(Looper.getMainLooper())
-    private val cm = context.getSystemService(Context.CAMERA_SERVICE) as CameraManager
-    private val torchCamId = findCamera()
-    private var available = true
-    private var enabled = false
-
-    private val torchCallback = object : CameraManager.TorchCallback() {
-        override fun onTorchModeUnavailable(cameraId: String) {
-            if (cameraId == torchCamId) {
-                available = false
-            }
-        }
-
-        override fun onTorchModeChanged(cameraId: String, newEnabled: Boolean) {
-            if (cameraId == torchCamId) {
-                available = true
-                enabled = newEnabled
-            }
-        }
-    }
-
-    init {
-        if (torchCamId != null) {
-            cm.registerTorchCallback(torchCallback, handler)
-        }
-    }
-
-    override fun canRun() = torchCamId != null && available
+    val service = IStatusBarService.Stub.asInterface(ServiceManager.getService(Context.STATUS_BAR_SERVICE))
 
     override fun run() {
-        try {
-            cm.setTorchMode(torchCamId, !enabled)
-        } catch (e: CameraAccessException) {
-            Log.e(TAG, "Failed to set torch mode to $enabled", e)
-            return
-        }
-
-        enabled = !enabled
-    }
-
-    override fun destroy() {
-        if (torchCamId != null) {
-            cm.unregisterTorchCallback(torchCallback)
-        }
-    }
-
-    private fun findCamera(): String? {
-        for (id in cm.cameraIdList) {
-            val characteristics = cm.getCameraCharacteristics(id)
-            val flashAvailable = characteristics.get(CameraCharacteristics.FLASH_INFO_AVAILABLE)
-            val lensFacing = characteristics.get(CameraCharacteristics.LENS_FACING)
-
-            if (flashAvailable != null && flashAvailable && lensFacing != null &&
-                    lensFacing == CameraCharacteristics.LENS_FACING_BACK) {
-                return id
-            }
-        }
-
-        return null
+        service.triggerElmyraAction("flashlight")
     }
 }

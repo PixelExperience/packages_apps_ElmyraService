@@ -16,25 +16,19 @@
 
 package org.protonaosp.elmyra.actions
 
+import android.app.StatusBarManager
 import android.content.Context
-import android.os.Handler
-import android.os.Looper
-import android.os.PowerManager
-import android.view.WindowManager
+import android.os.Bundle
+import android.os.ServiceManager
 
-import com.android.internal.util.ScreenshotHelper
+import com.android.internal.statusbar.IStatusBarService
 
 class ScreenshotAction(context: Context) : Action(context) {
-    val helper = ScreenshotHelper(context)
-    private val handler = Handler(Looper.getMainLooper())
-    val pm = context.getSystemService(Context.POWER_SERVICE) as PowerManager
+    val service = IStatusBarService.Stub.asInterface(ServiceManager.getService(Context.STATUS_BAR_SERVICE))
 
-    override fun canRun() = pm.isInteractive()
     override fun canRunWhenScreenOff() = false
 
     override fun run() {
-        helper.takeScreenshot(WindowManager.TAKE_SCREENSHOT_FULLSCREEN,
-                true, true, WindowManager.ScreenshotSource.SCREENSHOT_OTHER,
-                handler, null)
+        service.triggerElmyraAction("screenshot")
     }
 }

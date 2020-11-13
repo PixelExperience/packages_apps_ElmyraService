@@ -39,7 +39,7 @@
     <string name="setting_sensitivity_light">Light squeeze</string>
     <string name="setting_sensitivity_firm">Firm squeeze</string>
     <string name="setting_screen_off_title">Allow when screen is off</string>
-    <string name="setting_screen_off_summary">May increase false triggers</string>
+    <string name="setting_screen_off_summary">Trigger action when the device is not in your pocket</string>
     <string name="setting_action_title">On squeeze</string>
 
     <!-- Actions -->

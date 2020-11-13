@@ -16,18 +16,17 @@
 
 package org.protonaosp.elmyra.actions
 
+import android.app.StatusBarManager
 import android.content.Context
-import android.os.PowerManager
-import android.os.SystemClock
+import android.os.Bundle
+import android.os.ServiceManager
+
+import com.android.internal.statusbar.IStatusBarService
 
 class ScreenAction(context: Context) : Action(context) {
-    val pm = context.getSystemService(Context.POWER_SERVICE) as PowerManager
+    val service = IStatusBarService.Stub.asInterface(ServiceManager.getService(Context.STATUS_BAR_SERVICE))
 
     override fun run() {
-        if (pm.isInteractive()) {
-            pm.goToSleep(SystemClock.uptimeMillis(), PowerManager.GO_TO_SLEEP_REASON_POWER_BUTTON, 0)
-        } else {
-            pm.wakeUp(SystemClock.uptimeMillis(), PowerManager.WAKE_REASON_GESTURE, "org.protonaosp.elmyra:GESTURE")
-        }
+        service.triggerElmyraAction("screen")
     }
 }

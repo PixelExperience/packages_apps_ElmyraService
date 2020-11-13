@@ -199,7 +199,7 @@ class ElmyraService : Service(), SharedPreferences.OnSharedPreferenceChangeListe
         Log.i(TAG, "Gesture detected hostSuspended=${msg.hostSuspended} hapticConsumed=${msg.hapticConsumed}")
 
         if (action.canRun()) {
-            vibrator.vibrate(vibEdgeRelease)
+            //vibrator.vibrate(vibEdgeRelease)
             action.run()
             inGesture = false
         }

@@ -27,7 +27,7 @@
     <string name="setting_sensitivity_light">Leicht drücken</string>
     <string name="setting_sensitivity_firm">Stark drücken</string>
     <string name="setting_screen_off_title">Bei deaktiviertem Bildschirm zulassen</string>
-    <string name="setting_screen_off_summary">Kann zu Fehlauslösungen führen</string>
+    <string name="setting_screen_off_summary">Aktion wird ausgelöst, wenn sich das Gerät nicht in der Tasche befindet</string>
     <string name="setting_action_title">Beim Zusammendrücken</string>
 
     <!-- Actions -->
