@@ -16,19 +16,21 @@
 
 package org.protonaosp.elmyra.actions
 
-import android.app.StatusBarManager
 import android.content.Context
-import android.os.Bundle
-import android.os.ServiceManager
-
-import com.android.internal.statusbar.IStatusBarService
+import android.os.PowerManager
+import android.os.SystemClock
+import android.view.IWindowManager
+import android.view.WindowManagerGlobal
 
 class PowerMenuAction(context: Context) : Action(context) {
-    val service = IStatusBarService.Stub.asInterface(ServiceManager.getService(Context.STATUS_BAR_SERVICE))
-
-    override fun canRunWhenScreenOff() = false
+    val wm = WindowManagerGlobal.getWindowManagerService()
+    val pm = context.getSystemService(Context.POWER_SERVICE) as PowerManager
 
     override fun run() {
-        service.triggerElmyraAction("powermenu")
+        if (!pm.isInteractive()) {
+            pm.wakeUp(SystemClock.uptimeMillis(), PowerManager.WAKE_REASON_GESTURE, "org.protonaosp.elmyra:GESTURE")
+        }
+
+        wm.showGlobalActions()
     }
 }

@@ -27,6 +27,6 @@ class AssistantAction(context: Context) : Action(context) {
     val service = IStatusBarService.Stub.asInterface(ServiceManager.getService(Context.STATUS_BAR_SERVICE))
 
     override fun run() {
-        service.triggerElmyraAction("assist")
+        service.startAssist(Bundle())
     }
 }
