@@ -52,24 +52,4 @@
     <string name="action_mute_name">Mute calls and notifications</string>
     <string name="action_flashlight_name">Turn flashlight on/off</string>
     <string name="action_screen_name">Turn screen on/off</string>
-
-    <!-- Actions meta -->
-    <string-array name="action_values" translatable="false">
-        <item>screenshot</item>
-        <item>assistant</item>
-        <item>camera</item>
-        <item>power_menu</item>
-        <item>mute</item>
-        <item>flashlight</item>
-        <item>screen</item>
-    </string-array>
-    <string-array name="action_names" translatable="false">
-        <item>@string/action_screenshot_name</item>
-        <item>@string/action_assistant_name</item>
-        <item>@string/action_camera_name</item>
-        <item>@string/action_power_menu_name</item>
-        <item>@string/action_mute_name</item>
-        <item>@string/action_flashlight_name</item>
-        <item>@string/action_screen_name</item>
-    </string-array>
 </resources>
