@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2020 The Proton AOSP Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_on">Attiva / <xliff:g id="azione" esempio="cattura lo schermo">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Spento</string>
+    <string name="settings_search_keywords">Active Edge, stretta, bordo, gesti, assistenza, assistente</string>
+    <string name="setting_enabled_title">Stringi il telefono per effettuare l\'azione</string>
+    <string name="setting_enabled_summary">Per effettuare un\'azione, stringere e rilasciare i lati del telefono vicino al fondo</string>
+    <string name="setting_sensitivity_title">Sensibilità</string>
+    <string name="setting_sensitivity_light">Stretta leggera</string>
+    <string name="setting_sensitivity_firm">Stretta forte</string>
+    <string name="setting_screen_off_title">Permetti a schermo spento</string>
+    <string name="setting_screen_off_summary">Potrebbe aumentare attivazioni indesiderate</string>
+    <string name="setting_screen_off_blocked_summary">Bloccato dall\'azione corrente</string>
+    <string name="setting_action_title">Quando si stringe</string>
+    <string name="action_screenshot_name">Acquisisci screenshot</string>
+    <string name="action_assistant_name">Apri l\'assistente</string>
+    <string name="action_camera_name">Avvia fotocamera</string>
+    <string name="action_power_menu_name">Apri menù di avvio</string>
+    <string name="action_mute_name">Silenzia chiamate e notifiche</string>
+    <string name="action_flashlight_name">Accendi/spegni torcia</string>
+    <string name="action_screen_name">Accendi/spegni lo schermo</string>
+</resources>

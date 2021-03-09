@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2020 The Proton AOSP Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_on">Aktif / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Nonaktif</string>
+    <string name="settings_search_keywords">Active Edge, squeeze, edge, gestur, assist, asisten</string>
+    <string name="setting_enabled_title">Memeras telepon untuk melakukan tindakan</string>
+    <string name="setting_enabled_summary">Untuk melakukan suatu tindakan, remas dan lepaskan bagian samping telepon Anda di dekat bagian bawah</string>
+    <string name="setting_sensitivity_title">Sensitivitas</string>
+    <string name="setting_sensitivity_light">Remas ringan</string>
+    <string name="setting_sensitivity_firm">Remas kuat</string>
+    <string name="setting_screen_off_title">Izinkan saat layar mati</string>
+    <string name="setting_screen_off_summary">Dapat meningkatkan pemicu palsu</string>
+    <string name="setting_screen_off_blocked_summary">Diblokir oleh tindakan saat ini</string>
+    <string name="setting_action_title">Saat memeras</string>
+    <string name="action_screenshot_name">Ambil tangkapan layar</string>
+    <string name="action_assistant_name">Buka Asisten</string>
+    <string name="action_camera_name">Buka kamera</string>
+    <string name="action_power_menu_name">Buka menu daya</string>
+    <string name="action_mute_name">Senyapkan panggilan dan pemberitahuan</string>
+    <string name="action_flashlight_name">Aktifkan / matikan senter</string>
+    <string name="action_screen_name">Aktifkan / matikan layar</string>
+</resources>
