@@ -15,6 +15,23 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_on">På / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Av</string>
+    <string name="settings_search_keywords">Active Edge, klem, kant, bevegelse, assister, assistent</string>
+    <string name="setting_enabled_title">Klem telefonen for å utføre handling</string>
+    <string name="setting_enabled_summary">Klem og slipp nederst på sidene av telefonen din for å utføre en handling</string>
+    <string name="setting_sensitivity_title">Følsomhet</string>
+    <string name="setting_sensitivity_light">Lett klemming</string>
+    <string name="setting_sensitivity_firm">Hard klemming</string>
+    <string name="setting_screen_off_title">Tillat når skjermen er av</string>
+    <string name="setting_screen_off_summary">Kan øke hyppigheten av utilsiktede utløsninger</string>
+    <string name="setting_screen_off_blocked_summary">Blokkert av nåværende handling</string>
+    <string name="setting_action_title">Ved klem</string>
     <string name="action_screenshot_name">Ta skjermbilde</string>
+    <string name="action_assistant_name">Åpne assistent</string>
     <string name="action_camera_name">Åpne kamera</string>
+    <string name="action_power_menu_name">Åpne strøm-meny</string>
+    <string name="action_mute_name">Demp alle anrop og varsler</string>
+    <string name="action_flashlight_name">Skru lommelykt av/på</string>
+    <string name="action_screen_name">Skru skjerm på/av</string>
 </resources>

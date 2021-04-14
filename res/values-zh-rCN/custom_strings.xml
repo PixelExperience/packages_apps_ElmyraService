@@ -15,6 +15,23 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_on">开启/<xliff:g id="mode" example="截屏">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">关闭</string>
+    <string name="settings_search_keywords">Active Edge,握压,边缘,姿势,辅助,助手</string>
+    <string name="setting_enabled_title">握压手机来执行操作</string>
+    <string name="setting_enabled_summary">要执行操作，请握压并释放手机下半部分</string>
+    <string name="setting_sensitivity_title">敏感度</string>
+    <string name="setting_sensitivity_light">轻轻握压</string>
+    <string name="setting_sensitivity_firm">用力握压</string>
+    <string name="setting_screen_off_title">在屏幕关闭时允许</string>
+    <string name="setting_screen_off_summary">可能增加误触</string>
+    <string name="setting_screen_off_blocked_summary">被当前操作阻止</string>
+    <string name="setting_action_title">挤压</string>
     <string name="action_screenshot_name">屏幕截图</string>
+    <string name="action_assistant_name">启动谷歌助理</string>
     <string name="action_camera_name">打开相机</string>
+    <string name="action_power_menu_name">打开电源菜单</string>
+    <string name="action_mute_name">来电及通知静音</string>
+    <string name="action_flashlight_name">打开/关闭手电筒</string>
+    <string name="action_screen_name">打开/关闭屏幕</string>
 </resources>

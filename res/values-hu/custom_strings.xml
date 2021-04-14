@@ -25,6 +25,7 @@
     <string name="setting_sensitivity_firm">Határozott összenyomás</string>
     <string name="setting_screen_off_title">Alvó képernyőn is engedélyezze</string>
     <string name="setting_screen_off_summary">Növelheti a hamis kapcsolásokat</string>
+    <string name="setting_screen_off_blocked_summary">A jelenlegi művelet blokkolja</string>
     <string name="setting_action_title">Összenyomáskor</string>
     <string name="action_screenshot_name">Képernyőmentés</string>
     <string name="action_assistant_name">Asszisztens-indítás</string>

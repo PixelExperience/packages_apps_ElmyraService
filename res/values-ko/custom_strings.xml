@@ -15,6 +15,23 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_on">사용 / <xliff:g id="MODE">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">끄기</string>
+    <string name="settings_search_keywords">엣지, 짜기, 엣지, 동작, 도움,  어시스턴트 활성화</string>
+    <string name="setting_enabled_title">폰을 쥐어 동작 </string>
+    <string name="setting_enabled_summary">동작을 위해, 바닥 근처의 가장자리를 눌렀다 떼세요</string>
+    <string name="setting_sensitivity_title">민감도</string>
+    <string name="setting_sensitivity_light">가볍게 쥐기</string>
+    <string name="setting_sensitivity_firm">단단히 쥐기</string>
+    <string name="setting_screen_off_title">화면이 꺼져있을때 허용</string>
+    <string name="setting_screen_off_summary">잘못된 작동을 증가시킬 수 있음</string>
+    <string name="setting_screen_off_blocked_summary">이 행동으로 막힘</string>
+    <string name="setting_action_title">꽉 쥐다</string>
     <string name="action_screenshot_name">스크린샷 찍기</string>
+    <string name="action_assistant_name">어시스턴트 열기</string>
     <string name="action_camera_name">카메라 열기</string>
+    <string name="action_power_menu_name">전원 메뉴 열기</string>
+    <string name="action_mute_name">전화와 알림 끄기</string>
+    <string name="action_flashlight_name">손전등 켜기/끄기</string>
+    <string name="action_screen_name">화면 켜기/끄기</string>
 </resources>

@@ -15,6 +15,23 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_on">Zap. / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Vyp.</string>
+    <string name="settings_search_keywords">Active Edge, stlačenie, edge, gesto, pomoc, asistent</string>
+    <string name="setting_enabled_title">Stlačením telefónu vykonáte akciu</string>
+    <string name="setting_enabled_summary">Ak chcete vykonať akciu, stlačte a uvoľnite bočné časti telefónu v spodnej časti</string>
+    <string name="setting_sensitivity_title">Citlivosť</string>
+    <string name="setting_sensitivity_light">Slabé stlačenie</string>
+    <string name="setting_sensitivity_firm">Silné stlačenie</string>
+    <string name="setting_screen_off_title">Zastaviť pri vypnutej obrazovke</string>
+    <string name="setting_screen_off_summary">Môže zvýšiť falošné spustenie</string>
+    <string name="setting_screen_off_blocked_summary">Blokované aktuálnou akciou</string>
+    <string name="setting_action_title">Pri stlačení</string>
     <string name="action_screenshot_name">Urobiť snímku obrazovky</string>
+    <string name="action_assistant_name">Otvoriť asistenta</string>
     <string name="action_camera_name">Spustiť fotoaparát</string>
+    <string name="action_power_menu_name">Otvoriť menu Napájania</string>
+    <string name="action_mute_name">Stlmiť hovory a upozornenia</string>
+    <string name="action_flashlight_name">Zapnúť / vypnúť svietidlo</string>
+    <string name="action_screen_name">Zapnúť / vypnúť obrazovku</string>
 </resources>

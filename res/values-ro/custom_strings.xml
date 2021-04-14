@@ -15,6 +15,23 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_on">Activat / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Dezactivat</string>
+    <string name="settings_search_keywords">Margine Activă, strânge, margine, gest, asistă, asistent</string>
+    <string name="setting_enabled_title">Strânge telefonul pentru a realiza acțiunea</string>
+    <string name="setting_enabled_summary">Pentru a realiza o acțiune, strânge si eliberează marginile telefonului in partea de jos</string>
+    <string name="setting_sensitivity_title">Senzitivitate</string>
+    <string name="setting_sensitivity_light">Strângere ușoară</string>
+    <string name="setting_sensitivity_firm">Strângere fermă</string>
+    <string name="setting_screen_off_title">Permite cand ecranul este oprit</string>
+    <string name="setting_screen_off_summary">Pot crește declanșări false</string>
+    <string name="setting_screen_off_blocked_summary">Blocat de acțiunea curentă</string>
+    <string name="setting_action_title">La strangere</string>
     <string name="action_screenshot_name">Fă captură de ecran</string>
+    <string name="action_assistant_name">Deschide asistent</string>
     <string name="action_camera_name">Deschide camera</string>
+    <string name="action_power_menu_name">Deschide meniul de alimentare</string>
+    <string name="action_mute_name">Oprește apelurile și notificările</string>
+    <string name="action_flashlight_name">Lanternă aprinsă/stinsă</string>
+    <string name="action_screen_name">Ecran activat/dezactivat</string>
 </resources>

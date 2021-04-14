@@ -15,6 +15,23 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_on">Включено / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Изключен</string>
+    <string name="settings_search_keywords">Active Edge, стискане, ъгъл, жест, асистиране, асистент</string>
+    <string name="setting_enabled_title">Стиснете телефона, за да извършите действие</string>
+    <string name="setting_enabled_summary">За да извършите действие, стиснете и отпуснете страните на телефона близо до дъното</string>
+    <string name="setting_sensitivity_title">Чувствителност</string>
+    <string name="setting_sensitivity_light">Леко изстискване</string>
+    <string name="setting_sensitivity_firm">Твърдо изстискване</string>
+    <string name="setting_screen_off_title">Разрешаване, когато екранът е изключен</string>
+    <string name="setting_screen_off_summary">Може да увеличи фалшивите задействания</string>
+    <string name="setting_screen_off_blocked_summary">Блокиран от текущото действие</string>
+    <string name="setting_action_title">При изстискване</string>
     <string name="action_screenshot_name">Направи екранна снимка</string>
+    <string name="action_assistant_name">Отвори Асистента</string>
     <string name="action_camera_name">Отваряне на камерата</string>
+    <string name="action_power_menu_name">Отворете менюто за захранване</string>
+    <string name="action_mute_name">Заглушаване на обажданията и известията</string>
+    <string name="action_flashlight_name">Включете/изключете фенерчето</string>
+    <string name="action_screen_name">Включете/изключете екрана</string>
 </resources>

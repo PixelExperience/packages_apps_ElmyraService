@@ -15,6 +15,23 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_on">Açık / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Kapalı</string>
+    <string name="settings_search_keywords">Active Edge, sıkma, kenar, hareket, yardım, yardımcı</string>
+    <string name="setting_enabled_title">İşlemi gerçekleştirmek için telefonu sıkın</string>
+    <string name="setting_enabled_summary">Bir işlem gerçekleştirmek için telefonun alt kısmının kenarlarını sıkıştırın</string>
+    <string name="setting_sensitivity_title">Hassasiyet</string>
+    <string name="setting_sensitivity_light">Hafif sıkma</string>
+    <string name="setting_sensitivity_firm">Sıkı sıkma</string>
+    <string name="setting_screen_off_title">Ekran kapalıyken izin ver</string>
+    <string name="setting_screen_off_summary">Yanlış tetikleyicileri artırabilir</string>
+    <string name="setting_screen_off_blocked_summary">Mevcut işlem tarafından engellendi</string>
+    <string name="setting_action_title">Sıkmak</string>
     <string name="action_screenshot_name">Ekran görüntüsü al</string>
+    <string name="action_assistant_name">Asistanı aç</string>
     <string name="action_camera_name">Kamerayı aç</string>
+    <string name="action_power_menu_name">Güç menüsünü aç</string>
+    <string name="action_mute_name">Çağrıları ve bildirimleri sessize al</string>
+    <string name="action_flashlight_name">Fenerini aç / kapat</string>
+    <string name="action_screen_name">Ekranı aç/kapa</string>
 </resources>

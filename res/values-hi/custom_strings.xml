@@ -15,6 +15,6 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="action_screenshot_name">स्क्रीनशॉट लें</string>
-    <string name="action_camera_name">कैमरा खोले</string>
+    <string name="action_screenshot_name">Ambil tangkapan layar</string>
+    <string name="action_camera_name">Buka kamera</string>
 </resources>

@@ -15,6 +15,23 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_on">Aan / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Uit</string>
+    <string name="settings_search_keywords">Edge activeren, knijpen, zijkant, gebaar, ondersteuning, assistant</string>
+    <string name="setting_enabled_title">Knijp in toestel voor een actie</string>
+    <string name="setting_enabled_summary">Om een actie uit te voeren, knijp in de zijkant van je toestel</string>
+    <string name="setting_sensitivity_title">Gevoeligheid</string>
+    <string name="setting_sensitivity_light">Licht knijpen</string>
+    <string name="setting_sensitivity_firm">Stevig knijpen</string>
+    <string name="setting_screen_off_title">Toestaan wanneer het scherm is ingeschakeld</string>
+    <string name="setting_screen_off_summary">Kan verkeerde triggers verhogen</string>
+    <string name="setting_screen_off_blocked_summary">Geblokkeerd onder de huidige actie</string>
+    <string name="setting_action_title">Bij knijpen</string>
     <string name="action_screenshot_name">Maak schermafdruk</string>
+    <string name="action_assistant_name">Assistent openen</string>
     <string name="action_camera_name">Open camera</string>
+    <string name="action_power_menu_name">Power Menu openen</string>
+    <string name="action_mute_name">Zet inkomende oproepen en meldingen stil</string>
+    <string name="action_flashlight_name">Zaklamp aan/uit</string>
+    <string name="action_screen_name">Scherm uitschakelen</string>
 </resources>

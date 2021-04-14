@@ -15,6 +15,23 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_on">Aktif / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">nyahaktif</string>
+    <string name="settings_search_keywords">Active Edge, pemerasan, tepi, gerak isyarat, bantu, pembantu</string>
+    <string name="setting_enabled_title">Picit telefon untuk melakukan aksi</string>
+    <string name="setting_enabled_summary">Untuk melakukan tindakan, tekan dan lepaskan sisi telefon anda di bahagian bawah</string>
+    <string name="setting_sensitivity_title">Kepekaan</string>
+    <string name="setting_sensitivity_light">Picit ringan</string>
+    <string name="setting_sensitivity_firm">Picit kuat</string>
+    <string name="setting_screen_off_title">Benarkan apabila skrin dimatikan</string>
+    <string name="setting_screen_off_summary">Boleh meningkatkan pencetus palsu</string>
+    <string name="setting_screen_off_blocked_summary">Disekat oleh tindakan semasa</string>
+    <string name="setting_action_title">Semasa memerah</string>
     <string name="action_screenshot_name">Ambil Cekupanskrin</string>
+    <string name="action_assistant_name">Buka Asisten</string>
     <string name="action_camera_name">Buka kamera</string>
+    <string name="action_power_menu_name">Buka menu kuasa</string>
+    <string name="action_mute_name">Redamkan panggilan dan pemberitahuan</string>
+    <string name="action_flashlight_name">Lampu suluh hidup/mati</string>
+    <string name="action_screen_name">Padamkan skrin aktif/ nyahaktif</string>
 </resources>

@@ -15,6 +15,23 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_on">ON / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">OFF</string>
+    <string name="settings_search_keywords">アクティブエッジ、握る、エッジ、ジェスチャー、アシスト、アシスタント</string>
+    <string name="setting_enabled_title">端末を握ってアクションを起動</string>
+    <string name="setting_enabled_summary">アクションを起動するには、端末のボタン付近の両端を握った後に離して下さい。</string>
+    <string name="setting_sensitivity_title">感度</string>
+    <string name="setting_sensitivity_light">軽い握り</string>
+    <string name="setting_sensitivity_firm">強い握り</string>
+    <string name="setting_screen_off_title">画面消灯中は許可</string>
+    <string name="setting_screen_off_summary">起動の失敗が増えることがあります</string>
+    <string name="setting_screen_off_blocked_summary">現在の操作でブロックされました</string>
+    <string name="setting_action_title">握った時</string>
     <string name="action_screenshot_name">スクリーンショットを撮る</string>
+    <string name="action_assistant_name">アシスタントを開く</string>
     <string name="action_camera_name">カメラを起動</string>
+    <string name="action_power_menu_name">電源メニューを開く</string>
+    <string name="action_mute_name">着信と通知をミュート</string>
+    <string name="action_flashlight_name">フラッシュライトの ON/OFF</string>
+    <string name="action_screen_name">画面を消灯/点灯</string>
 </resources>

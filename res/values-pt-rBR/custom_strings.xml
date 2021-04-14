@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="settings_entry_summary_on">Ativado / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
-    <string name="settings_entry_summary_off">Ativado</string>
+    <string name="settings_entry_summary_off">Desligado</string>
     <string name="settings_search_keywords">Active Edge, aperto, lado, gesto, auxiliar, assistente</string>
     <string name="setting_enabled_title">Aperte o celular para realizar uma ação</string>
     <string name="setting_enabled_summary">Para realizar uma ação, aperte e solte os lados da parte de baixo do seu celular</string>

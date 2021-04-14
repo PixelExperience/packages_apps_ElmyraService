@@ -15,6 +15,24 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_on">Bật / <xliff:g id="MODE">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Tắt</string>
+    <string name="settings_search_keywords">Kích hoạt Edge, bóp, cạnh, cử chỉ, hỗ trợ, trợ lý</string>
+    <string name="setting_enabled_title">Bóp nhẹ điện thoại để thực hiện hành động</string>
+    <string name="setting_enabled_summary">To perform an action, squeeze and release the sides of your phone near the bottom</string>
+    <string name="setting_sensitivity_title">Độ nhạy</string>
+    <string name="setting_sensitivity_light">Bóp nhẹ</string>
+    <string name="setting_sensitivity_firm">Bóp chắc</string>
+    <string name="setting_screen_off_title">Cho phép khi màn hình tắt</string>
+    <string name="setting_screen_off_summary">Có thể làm tăng kích hoạt sai</string>
+    <string name="setting_screen_off_blocked_summary">VIỆT
+Bị chặn bởi hành động hiện tại</string>
+    <string name="setting_action_title">Bóp trên</string>
     <string name="action_screenshot_name">Chụp ảnh màn hình</string>
+    <string name="action_assistant_name">Mở trợ lý</string>
     <string name="action_camera_name">Mở máy ảnh</string>
+    <string name="action_power_menu_name">Mở menu nguồn</string>
+    <string name="action_mute_name">Tắt tiếng cuộc gọi và thông báo</string>
+    <string name="action_flashlight_name">Bật/tắt đèn pin</string>
+    <string name="action_screen_name">Bật/Tắt màn hình</string>
 </resources>

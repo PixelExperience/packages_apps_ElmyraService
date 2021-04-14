@@ -15,6 +15,23 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_on">På / <xliff:g id="händelse" exempel="Ta skärmbild">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Av</string>
+    <string name="settings_search_keywords">Aktiv kant, kläm, kant, gest, hjälp, assistent</string>
+    <string name="setting_enabled_title">Kläm telefon för att utföra åtgärd</string>
+    <string name="setting_enabled_summary">För att utföra en åtgärd, kläm och släpp sedan sidorna av din telefon nära botten</string>
+    <string name="setting_sensitivity_title">Känslighet</string>
+    <string name="setting_sensitivity_light">Lätt kläm</string>
+    <string name="setting_sensitivity_firm">Fast kläm</string>
+    <string name="setting_screen_off_title">Tillåt när skärmen är avslagen</string>
+    <string name="setting_screen_off_summary">Kan öka falska reaktioner</string>
+    <string name="setting_screen_off_blocked_summary">Blockerad av pågående åtgärd</string>
+    <string name="setting_action_title">Vid kläm</string>
     <string name="action_screenshot_name">Ta skärmdump</string>
+    <string name="action_assistant_name">Öppna assistent</string>
     <string name="action_camera_name">Öppna kameran</string>
+    <string name="action_power_menu_name">Öppna strömbrytarmeny</string>
+    <string name="action_mute_name">Vibrera för samtal och aviseringar</string>
+    <string name="action_flashlight_name">Flicklampa på/av</string>
+    <string name="action_screen_name">Stäng av/slå på skärmen</string>
 </resources>

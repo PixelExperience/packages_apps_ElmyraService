@@ -15,6 +15,23 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_on">Ενεργό / <xliff:g id="action" example="Λήψη στιγμιότυπου οθόνης">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Ανενεργό</string>
+    <string name="settings_search_keywords">Ενεργό Edge, πίεση, άκρη, χειρονομία, βοήθεια, βοηθός</string>
+    <string name="setting_enabled_title">Πιέστε το τηλέφωνο για να εκτελέσετε ενέργεια</string>
+    <string name="setting_enabled_summary">Για να εκτελέσετε μια ενέργεια, πιέστε και απελευθερώστε τις πλευρές του τηλεφώνου σας κοντά στο κάτω μέρος</string>
+    <string name="setting_sensitivity_title">Ευαισθησία</string>
+    <string name="setting_sensitivity_light">Ελαφριά συμπίεση</string>
+    <string name="setting_sensitivity_firm">Σταθερή πίεση</string>
+    <string name="setting_screen_off_title">Να επιτρέπεται όταν η οθόνη είναι απενεργοποιημένη</string>
+    <string name="setting_screen_off_summary">Μπορεί να αυξήσει τα ψευδή εναύσματα </string>
+    <string name="setting_screen_off_blocked_summary">Αποκλείστηκε από την τρέχουσα ενέργεια</string>
+    <string name="setting_action_title">Κατά την πίεση</string>
     <string name="action_screenshot_name">Λήψη στιγμιότυπου οθόνης</string>
-    <string name="action_camera_name">άνοιγμα φωτογραφικής μηχανής</string>
+    <string name="action_assistant_name">Άνοιγμα βοηθού Google</string>
+    <string name="action_camera_name">Άνοιγμα φωτογραφικής μηχανής</string>
+    <string name="action_power_menu_name">Άνοιγμα μενού ενέργειας</string>
+    <string name="action_mute_name">Σίγαση κλήσεων και ειδοποιήσεων</string>
+    <string name="action_flashlight_name">Ενεργοποίηση/Απενεργοποίηση φακού</string>
+    <string name="action_screen_name">Ενεργοποίηση/Απενεργοποίηση οθόνης</string>
 </resources>
