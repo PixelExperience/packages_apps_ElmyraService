@@ -28,6 +28,7 @@ class MuteAction(context: Context) : Action(context) {
     val service = IAudioService.Stub.asInterface(ServiceManager.getService(Context.AUDIO_SERVICE))
 
     override fun canRun() = context.resources.getBoolean(com.android.internal.R.bool.config_volumeHushGestureEnabled)
+    override fun canRunWhenScreenOff() = false
 
     override fun run() {
         // We can't call AudioService#silenceRingerModeInternal from here, so this is a partial copy of it
