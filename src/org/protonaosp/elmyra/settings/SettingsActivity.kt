@@ -28,7 +28,7 @@ import org.protonaosp.elmyra.R
 
 // Ugly, but there doesn't seem to be a better way
 private const val SEARCH_REQUEST_CODE = 501
-private const val INTELLIGENCE_PKG_NAME = "com.android.settings.intelligence"
+private const val INTELLIGENCE_PKG_NAME = "com.google.android.settings.intelligence"
 private const val MENU_SEARCH = Menu.FIRST + 10
 
 class SettingsActivity : Activity() {
