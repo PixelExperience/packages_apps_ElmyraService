@@ -15,6 +15,23 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_on"><xliff:g id="action" example="Take screenshot">%1$s</xliff:g> / এ</string>
+    <string name="settings_entry_summary_off">বন্ধ</string>
+    <string name="settings_search_keywords">সক্ষম প্রান্ত, টেপা, প্রান্ত, জেসচার, সহায়তা, সহায়তাকারী</string>
+    <string name="setting_enabled_title">ক্রিয়া সম্পাদন করার জন্য ফোনটি টিপুন</string>
+    <string name="setting_enabled_summary">কোনও ক্রিয়া সম্পাদন করতে, আপনার ফোনের নীচের দিকে  উভয় প্রান্তগুলি টিপুন এবং ছেড়ে দিন</string>
+    <string name="setting_sensitivity_title">সেনসিটিভিটি</string>
+    <string name="setting_sensitivity_light">হালকাভাবে টেপা</string>
+    <string name="setting_sensitivity_firm">দৃঢ়ভাবে টেপা</string>
+    <string name="setting_screen_off_title">স্ক্রীন বন্ধ থাকা অবস্থায় অনুমতি দিন</string>
+    <string name="setting_screen_off_summary">ফলস ট্রিগার বাড়তে পারে</string>
+    <string name="setting_screen_off_blocked_summary">বর্তমান ক্রিয়া দ্বারা অবরুদ্ধ করা হয়েছে</string>
+    <string name="setting_action_title">টিপলে</string>
     <string name="action_screenshot_name">স্ক্রীনের স্থির চিত্র নিন</string>
+    <string name="action_assistant_name">অ্যাসিস্ট্যান্ট খুলুন</string>
     <string name="action_camera_name">ক্যামেরা খুলুন</string>
+    <string name="action_power_menu_name">পাওয়ার মেনু খুলুন</string>
+    <string name="action_mute_name">কল এবং বিজ্ঞপ্তিগুলি মিউট করুন</string>
+    <string name="action_flashlight_name">ফ্ল্যাশলাইট অন/অফ করুন</string>
+    <string name="action_screen_name">স্ক্রীন অন/অফ করুন</string>
 </resources>

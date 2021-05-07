@@ -18,9 +18,9 @@
     <string name="settings_entry_summary_on">تشغيل / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">مغلق</string>
     <string name="settings_search_keywords">الحافة اليقظة, الضغط على اطراف الشاشة, الحافة, ايماء, مساعدة, مساعد</string>
-    <string name="setting_enabled_title">اضعط على اطراف الجهاز للقيام بفعل</string>
-    <string name="setting_enabled_summary">لاجراء فعل، اضغط على اطراف الجهاز من الاسفل ثم ازل الضغط</string>
-    <string name="setting_sensitivity_title">حساسية</string>
+    <string name="setting_enabled_title">اضعط على اطراف الجهاز للقيام بفعل ما</string>
+    <string name="setting_enabled_summary">لاجراء فعل ما، اضغط على اطراف الجهاز من الاسفل ثم ازل الضغط</string>
+    <string name="setting_sensitivity_title">الحساسية</string>
     <string name="setting_sensitivity_light">ضغطة ناعمة</string>
     <string name="setting_sensitivity_firm">ضغطة قوية</string>
     <string name="setting_screen_off_title">السماح عندما تكون الشاشة مغلقة</string>
@@ -29,8 +29,8 @@
     <string name="setting_action_title">عند الضغط على اطراف الجهاز</string>
     <string name="action_screenshot_name">أخذ لقطة للشاشة</string>
     <string name="action_assistant_name">فتح المساعد</string>
-    <string name="action_camera_name">افتح الكاميرا</string>
-    <string name="action_power_menu_name">فتح قائمة ال Power</string>
+    <string name="action_camera_name">تشغيل الكاميرا</string>
+    <string name="action_power_menu_name">فتح قائمة زر ال Power</string>
     <string name="action_mute_name">كتم صوت المكالامات و الاشعارات</string>
     <string name="action_flashlight_name">تشغيل/ايقاف اضاءة الكاميرا</string>
     <string name="action_screen_name">تشغيل/ايقاف الشاشة</string>

@@ -15,6 +15,11 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="setting_sensitivity_firm">prém fermament</string>
     <string name="action_screenshot_name">Pren una captura de pantalla</string>
+    <string name="action_assistant_name">Obre l\'assistent</string>
     <string name="action_camera_name">Obre la càmera</string>
+    <string name="action_mute_name">Silencia les trucades i notificacions</string>
+    <string name="action_flashlight_name">Llanterna encesa/apagada</string>
+    <string name="action_screen_name">Apaga la pantalla</string>
 </resources>
