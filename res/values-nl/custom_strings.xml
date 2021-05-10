@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="settings_entry_summary_on">Aan / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Uit</string>
-    <string name="settings_search_keywords">Edge activeren, knijpen, zijkant, gebaar, ondersteuning, assistant</string>
+    <string name="settings_search_keywords">Edge activeren, knijpen, zijkant, gebaar, ondersteuning, assistent</string>
     <string name="setting_enabled_title">Knijp in toestel voor een actie</string>
     <string name="setting_enabled_summary">Om een actie uit te voeren, knijp in de zijkant van je toestel</string>
     <string name="setting_sensitivity_title">Gevoeligheid</string>
