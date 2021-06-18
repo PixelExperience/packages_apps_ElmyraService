@@ -15,6 +15,14 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_off">ಆಫ್</string>
+    <string name="setting_sensitivity_title">ಸೂಕ್ಷ್ಮ</string>
+    <string name="setting_screen_off_title">ಪರದೆ ಆಫ್ ಆಗಿರುವಾಗ ನಿರ್ಬಂಧಿಸಿ</string>
     <string name="action_screenshot_name">ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ ತೆಗೆಯಿರಿ</string>
+    <string name="action_assistant_name">ಧ್ವನಿ ಸಹಾಯ ತೆರೆಯಿರಿ</string>
     <string name="action_camera_name">ಕ್ಯಾಮೆರಾ ತೆಗೆ</string>
+    <string name="action_power_menu_name">ಪವರ್ ಮೇನು ತೆರೆ</string>
+    <string name="action_mute_name">ಕರೆ ಮತ್ತು ಸೂಚನೆಗಳನ್ನು ಅಡಗಿಸಿ</string>
+    <string name="action_flashlight_name">ಫ್ಲ್ಯಾಶ್ಲೈಟ್ ಆನ್/ಆಫ್</string>
+    <string name="action_screen_name">ಸ್ಕ್ರೀನ್ ಆಫ್ ಮಾಡಿ</string>
 </resources>
