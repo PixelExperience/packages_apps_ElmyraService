@@ -15,21 +15,21 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="settings_entry_summary_on">An/<xliff:g id="MODE">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_on">Ein / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Aus</string>
     <string name="settings_search_keywords">Active Edge, Drücken, Kante, Geste, Assistent</string>
-    <string name="setting_enabled_title">Das Telefon drücken, um eine Aktion auszuführen</string>
-    <string name="setting_enabled_summary">Um eine Aktion auszuführen, drücken Sie die Seiten Ihres Telefons in der Nähe der Unterseite zusammen und lassen Sie sie los</string>
+    <string name="setting_enabled_title">Das Gerät zusammen drücken, um eine Aktion auszuführen</string>
+    <string name="setting_enabled_summary">Um eine Aktion auszuführen, drücken Sie die Seiten Ihres Telefons in der Nähe der Unterseite zusammen und lassen Sie es los</string>
     <string name="setting_sensitivity_title">Empfindlichkeit</string>
     <string name="setting_sensitivity_light">Leichtes Drücken</string>
     <string name="setting_sensitivity_firm">Festes Drücken</string>
-    <string name="setting_screen_off_title">Erlauben, wenn Bildschirm aus ist</string>
-    <string name="setting_screen_off_summary">Kann falsches Auslösen erhöhen</string>
-    <string name="setting_screen_off_blocked_summary">Durch aktuelle Aktion blockiert</string>
+    <string name="setting_screen_off_title">Mit ausgeschaltetem Bildschrim erlauben</string>
+    <string name="setting_screen_off_summary">Kann Fehlauslösungen hervorrufen</string>
+    <string name="setting_screen_off_blocked_summary">Durch die aktuelle Aktion blockiert</string>
     <string name="setting_action_title">Beim Drücken</string>
-    <string name="action_screenshot_name">Bildschirmfoto aufnehmen</string>
-    <string name="action_assistant_name">Google Assistant öffnen</string>
-    <string name="action_camera_name">Kamera starten</string>
+    <string name="action_screenshot_name">Screenshot aufnehmen</string>
+    <string name="action_assistant_name">Assistent öffnen</string>
+    <string name="action_camera_name">Kamera öffnen</string>
     <string name="action_power_menu_name">Power-Menü öffnen</string>
     <string name="action_mute_name">Anrufe und Benachrichtigungen stummschalten</string>
     <string name="action_flashlight_name">Taschenlampe ein/aus</string>

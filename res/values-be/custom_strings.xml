@@ -15,6 +15,23 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="action_screenshot_name">Зрабіць скрыншот</string>
+    <string name="settings_entry_summary_on">Уключана / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Адключана</string>
+    <string name="settings_search_keywords">Active Edge, сцісканне, край, жэст, дапамога, асістэнт</string>
+    <string name="setting_enabled_title">Сцісніце тэлефон, каб выканаць дзеянне</string>
+    <string name="setting_enabled_summary">Каб выканаць дзеянне, сцісніце і адпусціце бакі тэлефона каля ніжняга краю</string>
+    <string name="setting_sensitivity_title">Адчувальнасць</string>
+    <string name="setting_sensitivity_light">Лёгкае сцісканне</string>
+    <string name="setting_sensitivity_firm">Моцнае сцісканне</string>
+    <string name="setting_screen_off_title">Дазволіць, калі экран выключаны</string>
+    <string name="setting_screen_off_summary">Можа павялічыць памылковыя спрацоўванні</string>
+    <string name="setting_screen_off_blocked_summary">Заблакіравана бягучым дзеяннем</string>
+    <string name="setting_action_title">На сцісканне</string>
+    <string name="action_screenshot_name">Зрабіць здымак экрана</string>
+    <string name="action_assistant_name">Адкрыць асістэнт</string>
     <string name="action_camera_name">Адкрыць камеру</string>
+    <string name="action_power_menu_name">Адкрыць меню сілкавання</string>
+    <string name="action_mute_name">Адлучыць гукі для выклікаў і апавяшчэнняў</string>
+    <string name="action_flashlight_name">Уключыць/адключыць ліхтарык</string>
+    <string name="action_screen_name">Уключыць/адключыць экран</string>
 </resources>
