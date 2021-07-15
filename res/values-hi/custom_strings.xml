@@ -15,6 +15,11 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_off">बंद</string>
+    <string name="setting_enabled_title">कार्रवाई करने के लिए फोन निचोड़ें</string>
+    <string name="setting_sensitivity_title">संवेदनशीलता</string>
+    <string name="setting_screen_off_title">स्क्रीन बंद होने पर अनुमति दें</string>
     <string name="action_screenshot_name">Ambil tangkapan layar</string>
+    <string name="action_assistant_name">एसिस्टेंट खोले</string>
     <string name="action_camera_name">Buka kamera</string>
 </resources>

@@ -20,7 +20,7 @@
     <string name="settings_search_keywords">Active Edge,握压,边缘,姿势,辅助,助手</string>
     <string name="setting_enabled_title">握压手机来执行操作</string>
     <string name="setting_enabled_summary">要执行操作，请握压并释放手机下半部分</string>
-    <string name="setting_sensitivity_title">敏感度</string>
+    <string name="setting_sensitivity_title">灵敏度</string>
     <string name="setting_sensitivity_light">轻轻握压</string>
     <string name="setting_sensitivity_firm">用力握压</string>
     <string name="setting_screen_off_title">在屏幕关闭时允许</string>

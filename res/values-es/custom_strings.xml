@@ -27,7 +27,7 @@
     <string name="setting_screen_off_summary">Puede aumentar los desencadenantes falsos</string>
     <string name="setting_screen_off_blocked_summary">Bloqueado por la acción actual</string>
     <string name="setting_action_title">Al apretar</string>
-    <string name="action_screenshot_name">Hacer captura de pantalla</string>
+    <string name="action_screenshot_name">Tomar una captura de pantalla</string>
     <string name="action_assistant_name">Abrir asistente</string>
     <string name="action_camera_name">Abrir cámara</string>
     <string name="action_power_menu_name">Abrir menú de apagado </string>
