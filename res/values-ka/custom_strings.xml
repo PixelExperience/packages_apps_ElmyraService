@@ -18,9 +18,15 @@
     <string name="settings_entry_summary_on">ჩართული / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">გამორთული</string>
     <string name="settings_search_keywords">აქტიური კიდე, შესუსტება, კიდე, ჟესტი, დახმარება, დამხმარე</string>
+    <string name="setting_enabled_title">შესუსტეთ ტელეფონი მოქმედების შესასრულებლად</string>
+    <string name="setting_enabled_summary">მოქმედების შესასრულებლად, შეასუსტეთ და გაათავისუფლეთ თქვენი ტელეფონის გვერდები ქვედა ნაწილთან ახლოს</string>
     <string name="setting_sensitivity_title">მგრძნობელობა</string>
+    <string name="setting_sensitivity_light">მსუბუქი შესუსტება</string>
+    <string name="setting_sensitivity_firm">მყარი შესუსტება</string>
     <string name="setting_screen_off_title">ნების დართვა როდესაც ეკრანი გამორთულია</string>
+    <string name="setting_screen_off_summary">შეიძლება გაზარდოს ცრუ გამომწვევები</string>
     <string name="setting_screen_off_blocked_summary">ბლოკირებულია ამჟამინდელი მოქმედების შედეგად</string>
+    <string name="setting_action_title">შესუსტებასთან დაკავშირებით</string>
     <string name="action_screenshot_name">ეკრანის სურათის გადაღება</string>
     <string name="action_assistant_name">გახსენით ასისტენტი</string>
     <string name="action_camera_name">კამერის გახსნა</string>

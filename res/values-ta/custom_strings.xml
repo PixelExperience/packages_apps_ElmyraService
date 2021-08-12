@@ -15,6 +15,17 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="action_screenshot_name">திரையை படம் எடு</string>
-    <string name="action_camera_name">கேமராவை திற</string>
+    <string name="settings_entry_summary_off">நிறுத்து</string>
+    <string name="setting_enabled_title">செயலை மேற்கொள்ள கைபேசியை அழுத்து</string>
+    <string name="setting_enabled_summary">செயலை மேற்கொள்ள கைபேசியின் கீழ்ப்பக்கமாக பக்கவாட்டில் அழுத்தி பின் விடுவிக்கவும்</string>
+    <string name="setting_sensitivity_title">உணர்திறன்</string>
+    <string name="setting_sensitivity_light">மெல்லிய அழுத்தம்</string>
+    <string name="setting_screen_off_title">திரை செயலற்றபோது அனுமதி</string>
+    <string name="setting_screen_off_summary">தவறான தூண்டுதல்கள் அதிகரிக்க வாய்ப்பு</string>
+    <string name="setting_screen_off_blocked_summary">தற்போதைய செயலால் முடக்கப்பட்டுள்ளது</string>
+    <string name="setting_action_title">அழுத்தும்போது</string>
+    <string name="action_screenshot_name">திரையை படமெடு</string>
+    <string name="action_camera_name">நிழற்படக்கருவியை திற</string>
+    <string name="action_mute_name">அழைப்புகள் மற்றும் அறிவிப்புகளை அமைதிப்படுத்து</string>
+    <string name="action_screen_name">திரையை திற/அனை</string>
 </resources>

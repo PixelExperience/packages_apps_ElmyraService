@@ -15,7 +15,7 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="settings_entry_summary_on">Encender / <xliff:g id="mode" example="Alarms only">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_on">Encender / <xliff:g id="mode" example="Tomar captura de pantalla">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Apagado</string>
     <string name="settings_search_keywords">Active Edge, apretón, borde, gesto, asistencia, asistente</string>
     <string name="setting_enabled_title">Aprieta el teléfono para realizar una acción</string>

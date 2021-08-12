@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="settings_entry_summary_on">Käytössä / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Ei käytössä</string>
+    <string name="settings_search_keywords">Aktiivinen reuna, puristus, reuna, ele, avustus, avustaja</string>
     <string name="setting_enabled_title">Purista puhelinta suorittaaksesi toimintoja</string>
     <string name="setting_enabled_summary">Suorittaaksesi toiminnon purista ja löysää puhelimesi alaosan sivuja</string>
     <string name="setting_sensitivity_title">Herkkyys</string>
