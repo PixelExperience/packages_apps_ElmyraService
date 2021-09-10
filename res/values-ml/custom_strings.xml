@@ -15,6 +15,6 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="action_screenshot_name">ഒരു സ്‌ക്രീൻഷോട്ട് എടുക്കുക</string>
+    <string name="action_screenshot_name">സ്‌ക്രീൻഷോട്ട്  എടുക്കുക</string>
     <string name="action_camera_name">ക്യാമറ തുറക്കുക</string>
 </resources>
